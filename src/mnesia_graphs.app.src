@@ -1,0 +1,9 @@
+%% -*- erlang -*-
+{application, mnesia_graphs,
+ [{description, "mnesia_graphs"},
+  {vsn, "0.1"},
+  {modules, []},
+  {registered, []},
+  {mod, {'mnesia_graphs_app', []}},
+  {env, []},
+  {applications, [kernel, stdlib, crypto]}]}.

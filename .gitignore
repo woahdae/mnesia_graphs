@@ -1,0 +1,7 @@
+/ebin
+/deps
+/doc
+/_test
+/.eunit
+/docs
+/Mnesia*
