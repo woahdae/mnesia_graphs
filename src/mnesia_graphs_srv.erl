@@ -1,3 +1,6 @@
+%% @author Woody Peterson <woody.peterson@gmail.com>
+%% @copyright 2010 Woody Peterson <woody.peterson@gmail.com>
+
 -module(mnesia_graphs_srv).
 -behavior(gen_server).
 

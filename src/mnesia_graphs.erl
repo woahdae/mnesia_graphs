@@ -1,5 +1,5 @@
-%% @author Mochi Media <dev@mochimedia.com>
-%% @copyright 2010 Mochi Media <dev@mochimedia.com>
+%% @author Woody Peterson <woody.peterson@gmail.com>
+%% @copyright 2010 Woody Peterson <woody.peterson@gmail.com>
 
 %% @doc mnesia_graphs.
 
