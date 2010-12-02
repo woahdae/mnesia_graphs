@@ -9,6 +9,7 @@
 -export([start/1, stop/0, loop/2]).
 
 -record(stat, {metric, value, timestamp}).
+-define(APP_ID, mnesia_graphs).
 
 %% External API
 
@@ -98,4 +99,6 @@ render_index(Req) ->
     Req:ok({"text/html",Html}).
 
 compile_templates() ->
-    erltl:compile("priv" ++ "/www/mnesia_graphs_index.et", [{outdir, "ebin"}]).
+    erltl:compile(
+        code:priv_dir(?APP_ID) ++ "/www/mnesia_graphs_index.et",
+        [{outdir, code:lib_dir(?APP_ID) ++ "/ebin"}] ).
